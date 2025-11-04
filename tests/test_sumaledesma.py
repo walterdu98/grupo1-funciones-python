@@ -1,5 +1,5 @@
-from funciones.sumaledesma import sumar
+from funciones.sumaledesma import sumaledesma
 
-def test_sumar():
- assert sumar(3, 5) == 8
- assert sumar(-2, 2) == 0
+def test_sumaledesma():
+ assert sumaledesma(3, 5) == 8
+ assert sumaledesma(-2, 2) == 0
