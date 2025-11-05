@@ -1,5 +1,5 @@
 # tests/test_dividir_mariluan.py
-from funciones.dividir_marilluan import dividir_mariluan
+from funciones.dividir_mariluan import dividir_mariluan
 
 def test_dividir_mariluan():
  # división normal
