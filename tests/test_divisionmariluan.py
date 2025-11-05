@@ -1,12 +1,12 @@
-# tests/test_dividir_mariluan.py
-from funciones.dividir_mariluan import dividir_mariluan
+# tests/test_divisionmariluan.py
+from funciones.divisionmariluan import divisionmariluan
 
-def test_dividir_mariluan():
+def test_divisionmariluan():
  # división normal
- assert dividir_mariluan(10, 2) == 5
+ assert divisionmariluan(10, 2) == 5
 
  # division número impar
- assert dividir_mariluan(5, 2) == 2.5
+ assert divisionmariluan(5, 2) == 2.5
 
  # división por cero 
- assert dividir_mariluan(5, 0) is None
+ assert divisionmariluan(5, 0) is None
